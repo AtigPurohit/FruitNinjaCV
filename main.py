@@ -41,7 +41,7 @@ knifeImg.set_alpha(255)
 # background
 imgBackground = pygame.image.load('assets/background.jpg').convert_alpha()
 imgBackground = pygame.transform.scale(imgBackground, (1280, 720))
-imgBackground.set_alpha(225)
+imgBackground.set_alpha(195)
 
 imgLogo = pygame.image.load('assets/vrlogo.jpg').convert_alpha()
 # imgLogo = pygame.transform.scale(imgLogo, (1280,720))
@@ -268,7 +268,7 @@ speed = 15
 startGameFlag = 0
 score = 0
 startTime = time.time()
-totalTime = 60
+totalTime = 45
 gameOverFlag = 0
 bombFlag = 0
 pausedTime = 0
@@ -459,7 +459,7 @@ while running:
                     startGameFlag = 1
                     score = 0
                     startTime = time.time()
-                    totalTime = 60
+                    totalTime = 45
                     gameOverFlag = 0
                     bombFlag = 0
                     pausedTime = 0
@@ -476,7 +476,7 @@ while running:
                     startGameFlag = 0
                     score = 0
                     startTime = time.time()
-                    totalTime = 60
+                    totalTime = 45
                     gameOverFlag = 0
                     bombFlag = 0
                     pausedTime = 0
@@ -549,7 +549,7 @@ while running:
                                 startGameFlag = 0
                                 score = 0
                                 startTime = time.time()
-                                totalTime = 60
+                                totalTime = 45
                                 gameOverFlag = 0
                                 bombFlag = 0
                                 pausedTime = 0
